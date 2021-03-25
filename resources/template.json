@@ -1,0 +1,19 @@
+{
+   "browser_action": {
+      "default_icon": "images/48x48_Bing_Grey.png",
+      "default_popup": "rewards_popup.html"
+   },
+   "default_locale": "en",
+   "description": "__MSG_RewardsDesc__",
+   "icons": {
+      "128": "images/128x128_Bing_Grey.png",
+      "16": "images/16x16_Bing_Grey.png",
+      "48": "images/48x48_Bing_Grey.png"
+   },
+   "manifest_version": 2,
+   "name": "__MSG_RewardsTitle__ (Cleaned)",
+   "short_name": "__MSG_RewardsTitle__ (Cleaned)",
+   "permissions": [ "*://*.bing.com/*", "cookies" ],
+   "version": "CRXVERSION",
+   "web_accessible_resources": [ "*.png" ]
+}
