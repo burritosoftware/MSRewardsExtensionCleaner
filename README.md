@@ -7,7 +7,7 @@ Cleans the Microsoft Rewards extension for Chrome to remove notifications, exten
 
 ## Installation
 Download the latest release [**here**](https://github.com/burritosoftware/MSRewardsExtensionCleaner/archive/refs/heads/main.zip), and extract the contents to any folder you like (besides Program Files).  
-If you'd like to have MSRewardsExtensionCleaner **check for updates to the extension and repatch automatically & silently if one is found** on startup of your computer, run `UpdateOnStartup.bat`. This can be removed later in your Startup folder.  
+If you'd like to have MSRewardsExtensionCleaner **check for updates to the extension and repatch automatically & silently if one is found** on startup of your computer, run `UpdateOnStartup.bat`. This can be removed later in your Startup folder. 
 
 Now, run `clean.bat`. A window will appear similar to below, and then you'll see the window go green when it's finished.
 > If it goes red, that means that the extension is already cleaned and no updates were found to require a repatch.
@@ -21,6 +21,12 @@ Then, you'll see a Load unpacked button appear. Click it and navigate to the LOA
 ![developer mode](https://media.discordapp.net/attachments/558842854462717954/824522697606037534/unknown.png)
 
 After that, that's it! You'll now have Microsoft Rewards installed, but without interfering with your browser settings or privacy. You'll know that it's correct if you see `(Cleaned)` in the extension title.
+
+## Updating The Extension
+If you ran `UpdateOnStartup.bat`, on the startup of your PC, any updates for MS Rewards will automatically be downloaded and repatched.  
+Otherwise, rerun `clean.bat` to check for extension updates.  
+
+You will not need to re-load unpacked the `LOAD_ME` folder when updating the extension.
 
 ## Licensing
 
