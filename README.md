@@ -20,15 +20,23 @@ Then, you'll see a **Load unpacked** button appear. Click it and navigate to the
 
 ![developer mode](https://media.discordapp.net/attachments/558842854462717954/824522697606037534/unknown.png)
 
-After that, that's it! You'll now have Microsoft Rewards installed, but without interfering with your browser settings or privacy. You'll know that it's correct if you see `(Cleaned)` in the extension title.
+After that, that's it! You'll now have Microsoft Rewards installed, but without interfering with your browser settings or privacy. You'll know that it's correct if you see `(Cleaned)` in the extension title. **Please make sure to scroll down and read the rest of the information after installation!**
 
 ## Updating The Extension
 If you ran `UpdateOnStartup.bat`, on the startup of your PC, any updates for MS Rewards will automatically be downloaded and repatched.  
-Otherwise, rerun `clean.bat` to check for extension updates.  
+Otherwise, rerun `clean.bat` to check for extension updates and reclean on demand. 
 
 You will not need to re-load unpacked the `LOAD_ME` folder when updating the extension.
 
+## I get a "Disable developer mode extensions" or similar warning!
+
+This is a normal security message in Chromium browsers designed to let you know that developer extensions can harm your computer. The code for the patcher is all open source and the extension is downloaded directly from Google, so this message can be dismissed. If you'd like to remove the warning, download [ChromeDevExtWarningPatcher](https://github.com/Ceiridge/Chrome-Developer-Mode-Extension-Warning-Patcher/releases/latest/download/ChromeDevExtWarningPatcher.zip) and make sure `Remove extension warning`, `Remove debugging warning`, and `Disable Elision` are checked, then click `(Re-)Install`. Note that if the browser updates, the effects of the patcher may be reversed, so if you see the warning again, reinstall the patches.
+
+The source for ChromeDevExtWarningPatcher can be found [here](https://github.com/Ceiridge/Chrome-Developer-Mode-Extension-Warning-Patcher).
+
 ## Licensing
+
+MSRewardsExtensionCleaner is licensed under the [GNU General Public License v3.0](https://github.com/burritosoftware/MSRewardsExtensionCleaner/blob/main/LICENSE).
 
 ### curl
 
