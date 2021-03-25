@@ -16,7 +16,7 @@ Now, run `clean.bat`. A window will appear similar to below, and then you'll see
 
 Once finished, open your browser and go to the Extensions menu: **Chrome** `chrome://extensions` or **Edge** `edge://extensions`
 Make sure **Developer mode** is enabled. Look for the toggle and enable it. In my case, I'm using Edge so I'll enable the switch in the bottom left.
-Then, you'll see a Load unpacked button appear. Click it and navigate to the LOAD_ME folder, which will be located wherever you extracted the cleaner.
+Then, you'll see a **Load unpacked** button appear. Click it and navigate to the LOAD_ME folder, which will be located wherever you extracted the cleaner.
 
 ![developer mode](https://media.discordapp.net/attachments/558842854462717954/824522697606037534/unknown.png)
 
