@@ -19,6 +19,7 @@ echo | set /p dummyFile="%serverversion%" > "%~dp0\resources\extversion.txt"
 echo Downloading Microsoft Rewards extension...
 "%~dp0\libs\curl\curl.exe" -# -L -o "%~dp0temp\msrewards.crx" "https://clients2.google.com/service/update2/crx?response=redirect&os=win&arch=x86-64&os_arch=x86-64&nacl_arch=x86-64&prod=chromiumcrx&prodchannel=unknown&prodversion=89.0.4389.90&acceptformat=crx2,crx3&x=id%%3Dfbgcedjacmlbgleddnoacbnijgmiolem%%26uc&zipname=fbgcedjacmlbgleddnoacbnijgmiolem.zip" -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.57"
 echo.
+rmdir /S /Q "%~dp0\LOAD_ME" 2>nul
 echo Extracting source...
 "%~dp0\libs\7-zip\7z.exe" x "%~dp0temp\msrewards.crx" -y -o"%~dp0\LOAD_ME" > nul
 echo.
