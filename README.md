@@ -1,7 +1,7 @@
 # MSRewardsExtensionCleaner
 Cleans the Microsoft Rewards extension for Chrome to remove notifications, extension list tracking, and default search/newtab to Bing.
 
-> If you really like this, please consider sending a tip on my StreamElements! (Tips are processed by PayPal.)
+> *If you really like this, please consider sending a tip on my StreamElements!* (Tips are processed by **PayPal**.)
 > [![Tip Me on StreamElements](https://media.discordapp.net/attachments/558842854462717954/825041149994467378/TipMeOnSE.png)](https://streamelements.com/burritosoft/tip)
 
 ## Requirements
